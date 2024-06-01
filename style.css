@@ -1,0 +1,149 @@
+/* colors */
+/* #5E81AC
+#81A1C1
+#88C0D0
+#8FBCBB */
+
+* {
+	border-radius: 0;
+	font-size: 12px;
+	min-height: 0;
+}
+
+window#waybar {
+	background: #4c566a;
+	color: #ECEFF4;
+	border-radius: 25;
+}
+
+.modules-left {
+	padding: 5 0 5 5;
+	border-bottom-right-radius: 20px;
+}
+
+.modules-right {
+	padding: 5 1 5 0;
+	border-bottom-left-radius: 20px;
+}
+
+#workspaces {
+	border: none;
+	background-color: rgba(0, 0, 0, 0);
+	border: solid 1px #8FBCBB;
+	padding: 0 10px;
+	padding-left: 0px;
+	padding-right: 5px;
+	border-radius: 19px;
+}
+
+#workspaces button {
+	font-size: 10px;
+	color: rgba(0, 0, 0, 0);
+	background-color: #ECEFF4;
+	padding: 0;
+  padding-top: 1px;
+	padding-left: 1px;
+	margin-left: 5px;
+	margin-top: 5px;
+	margin-bottom: 5px;
+	border-radius: 100%;
+}
+
+#workspaces button.active {
+	background: #8FBCBB;
+	padding-left: 15px;
+	border-radius: 30px;
+}
+
+#workspaces button:hover {
+	color: #ECEFF4;
+	background: #8FBCBB;
+	text-shadow: none;
+	border: solid 1px #8FBCBB;
+}
+
+#workspaces button.active:hover {
+	color: rgba(0, 0, 0, 0);
+}
+
+#network {
+	background: #8FBCBB;
+}
+
+#workspaces button.urgent {
+}
+
+#mode {
+	background: #64727d;
+	border-bottom: 3px solid #ECEFF4;
+}
+
+#clock,
+#battery,
+#cpu,
+#memory,
+#temperature,
+#backlight,
+#network,
+#wireplumber,
+#pulseaudio,
+#custom-media,
+#tray,
+#mode,
+#language,
+#idle_inhibitor {
+	padding: 0 15px;
+	margin-right: 5px;
+	margin-left: 5px;
+	border-radius: 2rem;
+}
+
+#language {
+  background: #8FBCBB;
+}
+
+#battery {
+	background: #88C0D0;
+	color: #ECEFF4;
+	padding-right: 25px;
+}
+
+#battery.critical {
+  padding-right: 15px;
+  background: #BF616A;
+}
+
+#battery.plugged {
+  padding-right: 15px;
+	color: #ECEFF4;
+	background: #A3BE8C;
+}
+
+#battery.charging {
+  padding-right: 15px;
+  color: #ECEFF4;
+	background: #A3BE8C;
+}
+
+#backlight {
+	color: #ECEFF4;
+	background: #5E81AC;
+	padding-right: 20px;
+}
+
+#pulseaudio {
+	padding-right: 20px;
+	background: #81A1C1;
+}
+
+#pulseaudio.muted {
+	padding-right: 16px;
+	padding-left: 15px;
+	padding-top: 2px;
+	background: #BF616A;
+}
+
+#tray {
+	border: solid 1px #8FBCBB;
+	color: #ECEFF4;
+}
