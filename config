@@ -1,0 +1,73 @@
+[
+  {
+    "backlight": {
+      "format": "{percent}% <span rise='250' size='large'> {icon}</span>",
+      "format-icons": ""
+    },
+    "battery": {
+      "format": "{capacity}% <span rise='250' size='large'> {icon}</span>",
+      "format-charging": "{capacity}% <span rise='250' size='large'> {icon}</span> <span rise='250' size='large'> 󱐋</span>",
+      "format-critical": "{capacity}% <span rise='250' size='large'> {icon}</span> <span rise='250' size='large'>  </span>",
+      "format-icons": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "format-plugged": "{capacity}% <span rise='250' size='large'> {icon}</span> <span rise='250' size='large'> 󱐋</span>",
+      "interval": 1,
+      "max-length": 25,
+      "states": {
+        "critical": 15
+      }
+    },
+    "clock": {
+      "format": "{:%I:%M %p} <span rise='250' size='large'> </span>"
+    },
+    "height": 30,
+    "hyprland/language": {
+      "format": "{short}"
+    },
+    "layer": "top",
+    "margin": "20 20 0 20",
+    "modules-center": [
+      "clock"
+    ],
+    "modules-left": [
+      "hyprland/workspaces"
+    ],
+    "modules-right": [
+      "backlight",
+      "pulseaudio",
+      "battery",
+      "hyprland/language",
+      "tray"
+    ],
+    "output": [
+      "eDP-1",
+      "HDMI-A-1"
+    ],
+    "position": "top",
+    "pulseaudio": {
+      "format": "{volume}% <span size='large'> {icon}</span>",
+      "format-icons": {
+        "car": "",
+        "default": [
+          "",
+          "",
+          ""
+        ],
+        "handsfree": "",
+        "headphones": "",
+        "headset": "",
+        "phone": "",
+        "portable": ""
+      },
+      "format-muted": "<span size='large'>󰸈</span>"
+    },
+    "tray": {
+      "spacing": 10
+    }
+  }
+]
